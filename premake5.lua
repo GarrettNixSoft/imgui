@@ -24,5 +24,9 @@ project "ImGui"
 	cppdialect "C++17"
 	staticruntime "On"
 
+    defines {
+        "IMGUI_API=__declspec(dllexport)"
+    }
+
 	filter { "system:windows", "configurations:Release" }
 		buildoptions "/MT"
