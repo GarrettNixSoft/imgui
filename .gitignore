@@ -76,3 +76,8 @@ examples/example_sdl3_vulkan/example_sdl3_vulkan
 /bin/Debug-windows-x86_64/ImGui
 /bin-int/Debug-windows-x86_64/ImGui
 /ImGui.vcxproj
+/bin/windows-x86_64/Debug/ImGui
+/bin-int/windows-x86_64/Debug/ImGui/ImGui.tlog
+*.recipe
+/bin/windows-x86_64/Release/ImGui
+/bin-int/windows-x86_64
